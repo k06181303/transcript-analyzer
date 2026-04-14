@@ -11,6 +11,12 @@ pinned: false
 
 貼入任意逐字稿（會議、訪談、演講、Podcast…），自動產出**摘要、重點整理、關鍵詞、發言者**。
 
+## Demo
+
+![demo](assets/demo.gif)
+
+🔗 **線上試用：** [huggingface.co/spaces/k06181303/transcript-analyzer](https://huggingface.co/spaces/k06181303/transcript-analyzer)
+
 ## 功能
 
 | 功能 | 說明 |
