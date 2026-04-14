@@ -1,0 +1,13 @@
+.env
+venv/
+eval/eval_report.png
+eval/eval_results.json
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+.DS_Store
+.claude/

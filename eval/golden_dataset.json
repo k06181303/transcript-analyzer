@@ -1,0 +1,66 @@
+[
+  {
+    "id": "meeting_01",
+    "type": "meeting",
+    "sample_file": "sample/sample_transcript.txt",
+    "golden_summary": "團隊討論產品下一季的功能規劃與資源分配，決定優先推進用戶留存功能，並確認各項任務的負責人與時程。",
+    "golden_key_points": [
+      "決定 Q2 優先推進用戶留存相關功能，暫緩新市場拓展計畫",
+      "UI 改版由設計團隊負責，需在兩週內完成原型",
+      "後端 API 效能優化列為技術債，本季內完成",
+      "下次會議訂於兩週後，屆時 review 各項進度"
+    ]
+  },
+  {
+    "id": "interview_01",
+    "type": "interview",
+    "sample_file": "sample/interview_transcript.txt",
+    "golden_summary": "AI 可解釋性研究學者李明分享其研究成果，包含以「概念激活向量」技術應用於醫療影像診斷，並說明未來擴展至多模態模型的方向。",
+    "golden_key_points": [
+      "李明博士專注於大型語言模型可解釋性研究，目標是讓 AI 決策過程透明化",
+      "與台大醫院合作的肺炎 X 光診斷系統，使醫生診斷準確率提升約 15%",
+      "使用「概念激活向量」技術找出對決策影響最大的關鍵概念，解決規模化追蹤問題",
+      "未來計畫擴展至多模態模型，並申請建立標準化 AI 可解釋性評估框架",
+      "建議年輕研究者打好線性代數與機率論基礎，並養成追問「為什麼有效」的習慣"
+    ]
+  },
+  {
+    "id": "lecture_01",
+    "type": "lecture",
+    "sample_file": "sample/lecture_transcript.txt",
+    "golden_summary": "講者介紹技術債的概念、三種類型與管理方法，強調技術債是軟體開發的正常現象，關鍵在於有意識地管理而非視而不見。",
+    "golden_key_points": [
+      "技術債由 Ward Cunningham 於 1992 年提出，比喻為走捷徑後產生的「利息」式維護成本",
+      "技術債分為三種：故意的（趕上線）、無意的（能力不足）、過時的（技術老舊）",
+      "「童子軍原則」建議每次修改時順手改善一點，避免一次性大重構",
+      "建議每個 sprint 留 20% 時間處理技術債，並在 issue tracker 中可視化記錄",
+      "健康的工程團隊應能坦然討論技術債並有計劃地處理，而非視而不見"
+    ]
+  },
+  {
+    "id": "podcast_01",
+    "type": "podcast",
+    "sample_file": "sample/podcast_transcript.txt",
+    "golden_summary": "Kevin 與 Sarah 探討新創公司在 Series B 後衰退的原因，核心在於創辦人無法跟上組織成長，並提出提早建立管理層、引入職業 CEO 等解法。",
+    "golden_key_points": [
+      "約 60% 的新創在 B 輪後三年內會遇到重大組織問題，主因是創辦人無法跟著公司成長",
+      "B 輪是從「執行力文化」轉型為「管理文化」的關鍵節點",
+      "提早找「職業 CEO」或「營運長」是有效解法，如 Google 早期引入 Eric Schmidt",
+      "應在 B 輪之前就建立管理層，避免拿到錢後才倉促搭架子導致文化稀釋",
+      "創辦人需誠實面對自己的能力邊界，不執著於 CEO 頭銜"
+    ]
+  },
+  {
+    "id": "brainstorm_01",
+    "type": "brainstorm",
+    "sample_file": "sample/brainstorm_transcript.txt",
+    "golden_summary": "團隊針對 App 第三天留存率僅 22%（低於業界平均 35%）的問題進行腦力激盪，最終確定四項優先改善方向，以重新設計 onboarding 流程為首要任務。",
+    "golden_key_points": [
+      "App 第三天留存率 22%，低於業界平均 35%，需提升 13 個百分點",
+      "最優先任務：重新設計 onboarding 流程，讓用戶在 5 分鐘內體驗到核心價值（啊哈時刻）",
+      "個人化 onboarding（自訂頭像、主題、目標）有研究顯示可提升第 7 天留存率 40%",
+      "每日挑戰功能（類 Duolingo 機制）與智慧推送時間優化列為第三、四優先",
+      "社交功能（邀請朋友）效果強但開發成本高，列為後續評估項目"
+    ]
+  }
+]
